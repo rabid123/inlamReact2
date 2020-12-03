@@ -1,0 +1,9 @@
+.displayUserName {
+  grid-column: 9/10;
+  align-self: left;
+}
+.profileImg {
+  width: 5vh;
+  border-radius: 50%;
+  grid-column: 1/5;
+}

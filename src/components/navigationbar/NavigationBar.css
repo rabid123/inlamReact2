@@ -1,0 +1,14 @@
+.navigationBarWrapper {
+  display: grid;
+  grid-template-columns: repeat(10, 1fr);
+  background-color: darkgoldenrod;
+  height: 100px;
+  align-self: center;
+}
+.signin {
+  grid-column: 9/10;
+  align-self: center;
+}
+.usersc {
+  grid-column: 6/7;
+}
