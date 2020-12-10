@@ -9,7 +9,7 @@ export const HomeView = () => {
       alert("component is removed")
     }
     
-    },[])
+    },[count])
   
     return (
         <div>
