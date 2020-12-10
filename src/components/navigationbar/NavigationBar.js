@@ -10,14 +10,14 @@ export const NavigationBar = () => {
 
     const displayIfAuthenticatedUser=()=>{
         return authenticatedUser
-    ? <Profile />
+    ? <div className="profile"><Profile /></div> 
     : <span className="signin" onClick={()=>history.push("/signin")} > Signin </span>
     
     }
     return (
         <div className="navigationBarWrapper">
-            <span  onClick={()=>history.push("/")}>Home</span>
-            <span>About</span>
+            <span  onClick={()=>history.push("/")} className="home">Home</span>
+            <span className="about">About</span>
             {displayIfAuthenticatedUser()}
             
         </div>

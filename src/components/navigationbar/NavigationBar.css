@@ -12,3 +12,16 @@
 .usersc {
   grid-column: 6/7;
 }
+.profile {
+  grid-column: 8/9;
+  align-self: center;
+}
+.home {
+  align-self: center;
+  font-weight: bold;
+  padding-left: 15px;
+}
+.about {
+  align-self: center;
+  font-weight: bold;
+}

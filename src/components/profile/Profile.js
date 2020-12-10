@@ -8,7 +8,7 @@ export const Profile = () => {
     const [authenticatedUser, ] = useContext(UserContext)
 
     return (
-        <div>
+        <div className = "profileWraper">
             <img className ="profileImg" src={"https://thispersondoesnotexist.com/image"} alt="" />
             <span className="displayUserName">{authenticatedUser}</span>
         </div>
